@@ -1,0 +1,91 @@
+/* @TODO needs refactoring on this file */
+
+.campaigns_list {
+  width: 100%;
+}
+
+.tab-heading {
+  margin-bottom: 4px;
+}
+
+.form-buttons {
+  margin-top: 16px;
+  button {
+    height: 50px;
+    margin-right: 24px;
+  }
+}
+
+.margin-t-40 {
+  margin-top: 40px;
+}
+
+.panel {
+  border: 1px solid #f1f1f1;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+
+.no-margin {
+  margin: 0;
+}
+
+.text-muted {
+  color: #222222;
+  opacity: 0.5;
+  padding-bottom: 18px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.form-field {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.animation-preview {
+  width: 80%;
+  max-width: 180px;
+}
+
+.table-animation-preview {
+  max-width: 60px;
+}
+
+.img-dropzone {
+  width: 100%;
+  // height: 60px;
+  text-align: center;
+  .animation-preview {
+    margin-top: 20px;
+  }
+}
+
+.mobile-preview {
+  background-image: url(http://live.dynamicpush.com/assets/cell.jpg);
+  background-position: center center;
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  .animation-preview {
+    position: absolute;
+    width: 40px;
+    top: 130px;
+    left: 50%;
+    margin-left: -20px;
+    &.top {
+      top: 130px;
+    }
+    &.center {
+      top: 220px;
+    }
+    &.bottom {
+      top: 320px;
+    }
+  }
+}

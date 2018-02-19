@@ -1,0 +1,314 @@
+{
+  "shared": {
+    "applicationName": "Dynamic Push",
+    "on": "On",
+    "off": "Off",
+    "date": "Date",
+    "time": "Time",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "validation": {
+    "required": "This field is required.",
+    "email": "Invalid email address.",
+    "minlen": "This field should contain at least {{len}} characters.",
+    "maxlen": "This field should contain at most {{len}} characters."
+  },
+  "layout": {
+    "header": {
+      "home": "Home",
+      "pricing": "Pricing",
+      "howItWorks": "How it works",
+      "company": "Company",
+      "blog": "Blog",
+      "login": "Login",
+      "logout": "Logout",
+      "hello": "Hello",
+      "companies": "Company List",
+      "helpAndDocumentation": "Help & Documentation"
+    },
+    "navbar": {
+      "dashboard": "Dashboard",
+      "campaigns": "Campaigns",
+      "audience": "Audience",
+      "reports": "Reports",
+      "analytics": "Analytics",
+      "revenueGoals": "Revenue Goals",
+      "settings": "Settings",
+      "users": "Users",
+      "devices": "Devices",
+      "events": "Events",
+      "locations": "Locations",
+      "companies": "Companies"
+    }
+  },
+  "applications": {
+    "environment": "Environment",
+    "development": "Development",
+    "production": "Production",
+    "updateYourApp": "Update Your App",
+    "addYourApp": "Add Your App",
+    "addYourFirstApp": "Add Your First App",
+    "nextRegisterYourApp": "Next: Register Your App",
+    "appName": "App Name",
+    "appIcon": "App Icon",
+    "iconTooltip": "This icon will be used for application",
+    "uploadAnotherIcon": "Upload Another Icon",
+    "packageName": "Package Name",
+    "registerYourApp": "Register your App with {{applicationName}}",
+    "dpAPIKey": "DP API Key",
+    "dpAPISecret": "DP API Secret",
+    "fcmServerKey": "FCM Server Key",
+    "iOSKeyPem": "iOS Key pem file",
+    "iosCertPem": "iOS Cert pem file",
+    "apiTooltip": "Use these API key and secret to register your App with {{applicationName}}. See documentation for more information.",
+    "welcomeMessage": "Welcome to {{applicationName}}. Few more steps and you'll be ready to send your first campaign.",
+    "congratulations": "Congratulations",
+    "createCampaign": "Create a campaign",
+    "registerAnotherApp": "Register Another App",
+    "congratsMessage": "Your App has been successfully registered. Now you're ready for your first {{applicationName}} campaign"
+  },
+  "campaigns": {
+    "preview": {
+      "heading": "Campaign Details"
+    },
+    "campaignTypes": {
+      "in-app-message": "Display In App Message",
+      "deep-link": "Link to the Page Inside the app",
+      "url": "Link to URL"
+    },
+    "list": {
+      "heading": "Campaigns",
+      "newCampaign": "Create a New Campaign",
+      "inProgress": "In Progress",
+      "scheduled": "Scheduled",
+      "paused": "Paused",
+      "draft": "Draft",
+      "completed": "Completed",
+      "all": "All",
+      "actions": {
+        "results": "View Results",
+        "edit": "Edit",
+        "pause": "Pause",
+        "resume": "Resume Campaign",
+        "duplicate": "Duplicate",
+        "delete": "Delete"
+      }
+    },
+    "create": {
+      "heading": "Create a Campaign",
+      "nav": {
+        "start": "Start",
+        "createPush": "Create Dynamic Push",
+        "addAction": "Add Action",
+        "scheduleDelivery": "Schedule Delivery",
+        "selectAudience": "Select Audience",
+        "previewAndLaunch": "Preview and Launch",
+        "gotoList": "Go to List"
+      },
+      "start": {
+        "heading": "Start a Campaign",
+        "title": "Campaign Title",
+        "tags": "Add Tags",
+        "newTag": "New Tag",
+        "addTag": "Add",
+        "platform": "Select Platform",
+        "android": "Android",
+        "ios": "iOS",
+        "next": "Next: Create Dynamic Push",
+        "displayType": {
+          "dpi": "DPI",
+          "nova": "Nova",
+          "supernova": "Super Nova",
+          "meganova": "Mega Nova"
+        },
+        "displayTypeHints": {
+          "dpi": "Widget (DPI)",
+          "nova": "Icon Overlay",
+          "supernova": "Screen Overlay",
+          "meganova": "Screen Overlay"
+        }
+      },
+      "createPush": {
+        "heading": "Create Dynamic Push",
+        "addAnimation": "Add Dynamic Push Animation",
+        "addAnimationNote": "Animation will be displayed only on the Android Phones",
+        "chooseAnimation": "Upload Animation",
+        "chooseAnimationNote": "Animation should be in GIF format and not exceed 5k.",
+        "uploadInProgress": "Animation upload in progress...",
+        "replaceAnimation": "Replace Animation",
+        "replaceAnimationNote": "Animation should be in GIF format and not exceed 5k.",
+        "createAnimation": "Create Animation",
+        "createAnimationNote": "Ue GIF maker to create animation (Coming Soon)",
+        "deleteAnimation": "Delete Animation",
+        "uploadNow": "Upload Now",
+        "preview": "Preview",
+        "mobilePreview": "Mobile Phone Preview",
+        "next": "Next: Select Action",
+        "back": "Back",
+        "setDuration": {
+          "heading": "Set Duration for the Animation",
+          "loops": "Loops",
+          "loopsNote": "How many times animation will repeat",
+          "delay": "Delay",
+          "delayNote": "Pause between loops",
+          "totalDuration": "Total Duration"
+        },
+        "addPushNotification": {
+          "heading":  "Add Dynamic Push Notification",
+          "enterNotification": "Enter Notification Text",
+          "selectScreenLocation": "Select Location on the Screen",
+          "forAndroidOnly": "* For the Android phones only"
+        }
+      },
+      "addAction": {
+        "heading": "Add Action",
+        "subtitle": "Select desired action for the app to take when a user clicks on Dynamic Push notification.",
+        "enterLink": "Enter Link",
+        "next": "Next: Select Delivery",
+        "back": "Back",
+        "template": {
+          "createTemplate": "Create a New Template",
+          "templateEditor": "Template Editor",
+          "imageOrAnimation": "Image or Animation",
+          "headline": "Headline",
+          "content": "Content",
+          "callToAction": "Call to Action/Button",
+          "buttonLabel": "Button Label",
+          "buttonLink": "Enter Link"
+        },
+        "link": {
+          "enterLink": "Enter Link"
+        }
+      },
+      "scheduleDelivery": {
+        "heading": "Schedule Delivery",
+        "subtitle": "Select when users will receive Dynamic Push",
+        "next": "Next: Select Audience",
+        "back": "Back",
+        "schedule": {
+          "heading": "Schedule Delivery",
+          "subtitle": "Send DP at the designated times of the day or week",
+          "send": "Send DP",
+          "immediate": "Immediately",
+          "repeat": "Repeat",
+          "expirationNote": "Choose when the campaign should expire.",
+          "expirationDate": "Expiration Date",
+          "expirationTime": "Expiration Time",
+          "selectTimezone": "Select TimeZone",
+          "useDeviceTime": "Use Device Local Time"
+        },
+        "scheduleFrequency": {
+          "immediate": "Immediately",
+          "scheduled": "At a Designated Time"
+        },
+        "scheduleRepeat": {
+          "once": "Once",
+          "daily": "Daily",
+          "weekly": "Weekly",
+          "monthly": "Monthly"
+        },
+        "action": {
+          "heading": "Action Triggered Delivery",
+          "subtitle": "Send DP to users when they perform an action",
+          "selectEvent": "Select Trigger Event",
+          "inactivity": "Inactivity",
+          "idleDays": "Send when app is not opened within",
+          "sendLimit": "Do not send more than",
+          "withIn": "Within"
+        }
+      },
+      "selectAudience": {
+        "heading": "Select Audience",
+        "subtitle": "Select users who will receive Dynamic Push",
+        "selectSegment": "Select Segment",
+        "selectAgeGroup": "Select age group",
+        "next": "Next: Preview and Launch",
+        "back": "Back"
+      },
+      "previewAndLaunch": {
+        "heading": "Preview and Launch",
+        "subtitle": "Preview your campaign details before you launch",
+        "campaignName": "Campaign Name",
+        "tags": "Tags",
+        "action": "Action",
+        "delivery": "Delivery",
+        "audience": "Audience",
+        "saveAsDraft": "Save as a Draft",
+        "launchNow": "Launch Now"
+      }
+    },
+    "edit": {
+      "editCampaign": "Edit campaign"
+    },
+    "deleteDialog": {
+      "title": "Delete Campaign",
+      "question": "Are you sure you want to delete this campaign ?"
+    }
+  },
+  "segments": {
+    "operators": {
+      "$in": "In",
+      "$not": "Not",
+      "$and": "And",
+      "$or": "Or",
+      "$gt": "Greater than",
+      "$lt": "Less than",
+      "$gte": "Greater and equal",
+      "$lte": "Less and equal",
+      "$eq": "Equal",
+      "$ne": "Not Equal",
+      "$nin": "Not In"
+    },
+    "filterGroups": {
+      "USER_ATTRIBUTES": "User Attributes",
+      "LOCATION": "Location",
+      "USER_ACTIVIY_ATTRIBUTES": "User Activity",
+      "DEVICE_AND_APP": "Device and App Attributes"
+    },
+    "filters": {
+      "email": "Email",
+      "gender": "Gender",
+      "name": "Name",
+      "language": "Language",
+      "phone": "Phone",
+      "location": {
+        "lat": "Latitude",
+        "lng": "Longitude"
+      },
+      "country": "Country",
+      "state": "State",
+      "address": "Address",
+      "city": "City",
+      "zipcode": "Zipcode",
+      "created": "Activity",
+      "osNumber": "OS Number",
+      "deviceVendor": "Device Vendor",
+      "deviceModel": "Device Model",
+      "devicePlatform": "Device Platform",
+      "carrier": "Carrier",
+      "connectivityType": "Connectivity Type",
+      "sdkVersion": "SDK Version",
+      "packageName": "Package Name",
+      "appVersion": "App Version",
+      "pushNotificationEnabled": "Opt In",
+      "uninstalled": "uninstalled"
+    }
+  },
+  "users": {
+    "editCompany": "Edit Company",
+    "createCompany": "Add New Company",
+    "save": "Save",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "company": "Company Name",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone Number",
+    "address": "Address",
+    "verified": "Verified",
+    "activated": "Activated"
+  }
+}

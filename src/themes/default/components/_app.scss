@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  color: $color-primary-dark;
+  font-size: $xlarge-font-size;
+  font-weight: 300;
+}
+
+h3 {
+  color: $gray-dark;
+  font-size: $large-font-size;
+  font-weight: 500;
+}
+
+a {
+  color: $color-primary;
+}
+
+ul {
+  padding: 0;
+}

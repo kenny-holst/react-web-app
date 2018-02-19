@@ -1,0 +1,26 @@
+.c-container {
+  padding: $unit * 4;
+}
+
+.c-container__small {
+  width: $container-width-small;
+
+  @include breakpoint($mobile-large-down) {
+    width: 100%;
+  }
+}
+
+.c-container__medium {
+  max-width: $container-width-small * 2;
+}
+
+.c-container__large {
+  width: 100%;
+}
+
+.c-container__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
